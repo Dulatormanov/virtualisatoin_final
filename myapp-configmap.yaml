@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myapp-config
+data:
+  DJANGO_SECRET_KEY: k1l8gsqp&&glb@%qafi26xb-y4%xjf60g)2!6bspqc+@xjl7me
+  POSTGRES_DB: server_final
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: iliyas
+  HOST: db
+  PORT: "5432"
+
