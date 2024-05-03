@@ -17,6 +17,9 @@ spec:
         image: theilich/app:latest
         ports:
         - containerPort: 8080
+        env:
+        - name: SIMULATE_FAILURE
+          value: "false"
         envFrom:
         - configMapRef:
             name: myapp-config
