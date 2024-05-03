@@ -30,7 +30,7 @@ spec:
           failureThreshold: 3
         readinessProbe:
           httpGet:
-            path: /ready
+            path: /healthz
             port: 80
           initialDelaySeconds: 5
           timeoutSeconds: 2
